@@ -1,3 +1,9 @@
+/* NAME: Siddiqui Mohammed Asaad Shakir
+/*Roll no: 241258
+/*Branch:computer engineering   Batch: B3
+/* PROGRAM NO 1-A
+/*program to demonstrate Input/Output function */
+
 #include <stdio.h>
 
 int main(){
