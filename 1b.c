@@ -50,7 +50,6 @@ int main() {
     scanf("%d", &d);
     printf("Result of (a > b) || (c < d): %d\n", (a > b) || (c < d));
 
-    // Not Mentioned
     // Logical Operators NOT 
     printf("Enter values for a:\n");
     scanf("%d", &a);
@@ -62,31 +61,34 @@ int main() {
     scanf("%d", &d);
     printf("Result of (!(a > b) && (c < d)): %d\n", (!(a > b) && (c < d)));
 
-    //TERNARY OPERATORS
+    // TERNARY OPERATORS
     int age;
-    printf("enter age \n");
+    printf("Enter age:\n");
     scanf("%d", &age);
-    if(age>=18)
-     {
-      printf("Eligible to Vote \n");
-      printf("Eligible to Drive \n");
-    }
-    else {
-    printf("Not Eligible to Drive \n");
-    printf("Not Eligible to Vote \n");
+    if(age >= 18) {
+        printf("Eligible to Vote \n");
+        printf("Eligible to Drive \n");
+    } else {
+        printf("Not Eligible to Drive \n");
+        printf("Not Eligible to Vote \n");
     }
     
-    //Unary Operators
+    // Unary Operators
+    int i;
+    printf("Enter a value for i:\n");
+    scanf("%d", &i);
+    printf("(i++): %d\n", i++);
+    printf("(++i): %d\n", ++i); 
+    printf("(i--): %d\n", i--); 
+    printf("(--i): %d\n", --i); 
     
-    
-    //Commas
-    printf("Enter values for a:\n");
-    scanf("%d", &a);
-    printf("Enter values for b:\n");
-    scanf("%d", &b);
-    
+    // Commas
+    printf("Enter values for a and b:\n");
+    scanf("%d %d", &a, &b);
+
     printf("Value of a is: %d \n", a);
     printf("Value of b is: %d \n", b);
 
     return 0;
 }
+
