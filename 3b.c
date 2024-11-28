@@ -1,3 +1,8 @@
+/* NAME: Siddiqui Mohammed Asaad Shakir
+*Roll no: 241258
+*Branch:computer engineering   Batch: B3
+/* PROGRAM NO 3-B
+/*program to demonstrate nested control structure (Continue, Break, GoTo) */
 #include<stdio.h>
 int main()
 {
