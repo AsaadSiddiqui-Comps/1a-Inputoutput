@@ -1,7 +1,10 @@
+/* NAME: Siddiqui Mohammed Asaad Shakir
+*Roll no: 241258
+*Branch:computer engineering   Batch: B3
+/* PROGRAM NO 1-B
+/*Program to Demonstrate Branching */
 #include <stdio.h>
-
 int main(){
-
  int x,age, marks;
 
 //if(without else)
@@ -10,11 +13,9 @@ int main(){
     if (x > 5) {
         printf("x is greater than 5\n");
     }
-
 // if else (age)
 printf("enter age \n");
   scanf("%d", &age);
-
  if(age>=18)
      {
       printf("Eligible to Vote \n");
@@ -24,7 +25,6 @@ printf("enter age \n");
     printf("Not Eligible to Drive \n");
     printf("Not Eligible to Vote \n");
  }
-
 //Multiway
  printf("enter Marks \n");
   scanf("%d", &marks);
@@ -38,8 +38,5 @@ else if(marks <=70 && marks <80)
       printf("b \n");
 else
     printf("You have Entered Invalid Marks\n");
-
-
-
 return(0);
 }
