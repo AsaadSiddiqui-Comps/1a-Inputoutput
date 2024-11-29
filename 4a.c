@@ -1,3 +1,8 @@
+/* NAME: Siddiqui Mohammed Asaad Shakir
+*Roll no: 241258
+*Branch:computer engineering   Batch: B3
+/* PROGRAM NO 4-A
+/*Program to demonstrate (void functionname, parameter, two parameter)*/
 #include <stdio.h>
 //void Function()
 void myself();
