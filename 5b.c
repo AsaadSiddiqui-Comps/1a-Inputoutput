@@ -2,7 +2,7 @@
 *Roll no: 241258
 *Branch:computer engineering   Batch: B3
 /* PROGRAM NO 5-B
-/*program to demonstrate Factorial and Fabonacci Using Funtion */
+/*program to demonstrate Factorial and Fabonacci Using Resursion */
 
 #include <stdio.h>
 
