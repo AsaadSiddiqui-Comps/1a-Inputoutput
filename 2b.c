@@ -1,7 +1,7 @@
 /* NAME: Siddiqui Mohammed Asaad Shakir
 *Roll no: 241258
 *Branch:computer engineering   Batch: B3
-/* PROGRAM NO 1-B
+/* PROGRAM NO 2-B
 /*program to demonstrate Looping */
 #include <stdio.h>
 
