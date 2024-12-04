@@ -1,3 +1,5 @@
+#include <stdio.h>
+#include <string.h>
 // create struct with person1 variable
 struct Person {
  char name[50];
